@@ -8,7 +8,14 @@
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/drawable-v24/selector.xml" value="0.1015" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/layout/activity_calc.xml" value="0.2" />
         <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/layout/activity_dice.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/layout/activity_main.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/layout/activity_fb_upload.xml" value="0.264" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/layout/activity_file.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/layout/activity_images.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/layout/activity_tts.xml" value="0.4" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/layout/entity_slide.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/layout/image_item.xml" value="0.1" />
+        <entry key="..\:/Users/Anshad/AndroidStudioProjects/MultiScreen/app/src/main/res/layout/item_loading.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -17,7 +17,7 @@ public class DiceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dice);
         imageView = findViewById(R.id.imageView);
-        
+
         setTitle("Dice");
 
         imageView.setOnClickListener(new View.OnClickListener() {
