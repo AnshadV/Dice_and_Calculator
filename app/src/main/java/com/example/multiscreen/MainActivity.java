@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 
 import com.example.multiscreen.FileUpload.FbUploadActivity;
-import com.example.multiscreen.Slide.EndlessRecyclerViewScrollListener;
 import com.example.multiscreen.databinding.ActivityMainBinding;
 
 import java.util.ArrayList;
@@ -26,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     String current_ip = "";
     boolean loading = false;
     CustomAdapter adapter;
-    private EndlessRecyclerViewScrollListener scrollListener;
 
 
     @Override
@@ -41,18 +39,16 @@ public class MainActivity extends AppCompatActivity {
 
         //slider
         layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+
         recyclerView.setLayoutManager(layoutManager);
 
+
         prepare_gallery_with_image();
+        recyclerView.getLayoutManager().scrollToPosition(Integer.MAX_VALUE/2);
 
         //enable infinite scroll for recycler view
-        scrollListener = new EndlessRecyclerViewScrollListener((LinearLayoutManager) layoutManager) {
-            @Override
-            public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
-                prepare_gallery_with_image();
-            }
-        };
-        recyclerView.addOnScrollListener(scrollListener);
+
+
 
 
 

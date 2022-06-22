@@ -13,7 +13,6 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.example.multiscreen.databinding.EntitySlideBinding;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Objects;
 
@@ -45,6 +44,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+        position = position % slideModelArrayList.size();
         holder.entitySlideBinding.textViewName.setText((slideModelArrayList.get(position).name+""));
         slideModelArrayList.get(position).slide_no = (position+1)+"/"+slideModelArrayList.size()+"";
         holder.entitySlideBinding.tvSlidenumber.setText(slideModelArrayList.get(position).slide_no+"");
@@ -82,6 +82,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
 
     @Override
     public int getItemCount() {
-        return slideModelArrayList.size();
+        return Integer.MAX_VALUE;
     }
+
 }
